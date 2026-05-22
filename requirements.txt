@@ -1,0 +1,28 @@
+# Voice Pipeline Dependencies
+
+# STT - Apple Speech Framework wrapper
+speechrecognition>=3.10.0
+openai-whisper>=20231117
+
+# TTS - Piper neural TTS
+piper-tts>=1.4.0
+
+# Audio processing
+pyaudio>=0.2.14
+numpy>=1.24.0
+soundfile>=0.12.1
+
+# Utilities
+dataclasses-json>=0.6.0
+
+# TUI
+textual>=0.40.0
+textual-dev>=1.0.0
+
+# HTTP API
+fastapi>=0.110.0
+uvicorn>=0.27.0
+pydantic>=2.0.0
+
+# LLM client
+requests>=2.31.0

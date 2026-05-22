@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Output files
+output/
+*.wav
+*.mp3
+*.flac
+
+# Piper voice cache (downloaded models)
+~/.cache/piper/
+
+# Database
+~/.voice_pipeline/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets & Environment
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.secret
+credentials.json
+secrets/
+
+# Logs
+*.log
